@@ -28,6 +28,7 @@ ol, ul {
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
+  cursor: pointer;
   text-align: center;
   width: 34px;
 }
