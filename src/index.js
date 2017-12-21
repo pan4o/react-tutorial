@@ -21,10 +21,11 @@ class Board extends Component {
   }
 
   renderSquare(number) {
-    return (<Square
-              value={this.state.squares[number]}
-              onClick={ () => this.handleClick(number) }/>
-            );
+    return (
+      <Square
+          value={this.state.squares[number]}
+          onClick={ () => this.handleClick(number) }/>
+    );
   }
 
   handleClick(number) {
